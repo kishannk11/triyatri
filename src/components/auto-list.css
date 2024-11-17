@@ -1,13 +1,19 @@
 .auto-list-container {
-    margin-top: 50px;
-}   
-
-.driver-list {
-    display: flex;
-    flex-wrap: wrap;
+    background-color: #f8f3c6;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
+.title {
+    display: flex;
+    flex-direction: column; 
+}
+  
 
 .driver-card {
-    flex: 1;
+    background-color: aqua;
 }
-    
+
+
+

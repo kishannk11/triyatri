@@ -37,26 +37,26 @@ function Form() {
     <div className="form-container">
       <form onSubmit={handleSubmit} className="registration-form">
         <h2>Registration Form</h2>
-        <label>
-          First Name:
-          <input
-            type="text"
-            name="firstName"
-            value={formData.firstName}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Last Name:
-          <input
-            type="text"
-            name="lastName"
-            value={formData.lastName}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
+        <div className="name-row">
+          <label>
+            First Name:
+            <input
+              type="text"
+              name="firstName"
+              value={formData.firstName}
+              onChange={handleChange}
+            />
+          </label>
+          <label>
+            Last Name:
+            <input
+              type="text"
+              name="lastName"
+              value={formData.lastName}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
         <label>
           Auto Number:
           <input

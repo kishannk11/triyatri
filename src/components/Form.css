@@ -3,14 +3,51 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
+    background-color: #f4f4f4;
 }
 
 .registration-form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
+    width: auto;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
-    background-color: aqua;
+    background-color: white;
+    font-size: 16px;
+    color: #333;
+}
+
+.name-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form input[type="tel"] {
+    width: calc(50% - 4px);
+    padding: 10px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.registration-form button:hover {
+    background-color: #0056b3;
 }    
