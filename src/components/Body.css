@@ -1,0 +1,66 @@
+.body {
+    background-color: #f8f3c6;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.poster-container {
+    display: flex;
+    padding-top: 50px;
+}
+
+.poster-image, .poster-content {
+    flex: 1;
+}
+
+.poster-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-image img {
+    width: 100%;
+    height: auto;
+}
+
+.poster-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.title img {
+    width: 250px;
+    height: auto;
+}
+
+.find-now-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.find-now-button:hover {
+    background-color: #ffe1008f;
+    color: #000;
+}
+
+.about-us {
+    padding-top: 50px;
+    font-size: 20px;
+    color: #000;
+    padding-left: 10%;
+    padding-right: 10%; 
+    padding-bottom: 100px;
+}
+

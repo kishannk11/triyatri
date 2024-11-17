@@ -1,0 +1,13 @@
+.auto-list-container {
+    margin-top: 50px;
+}   
+
+.driver-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.driver-card {
+    flex: 1;
+}
+    

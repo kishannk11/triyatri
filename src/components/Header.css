@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe1008f; /* Set background to transparent */
+    padding: 10px 20px;
+    position: sticky; /* Make header sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+.logo {
+    height: 50px; /* Adjust size as needed */
+}
+
+.header-button {
+    padding: 10px 20px;
+    background-color: #150038;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
