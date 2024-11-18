@@ -38,66 +38,44 @@ function Form() {
       <form onSubmit={handleSubmit} className="registration-form">
         <h2>Registration Form</h2>
         <div className="name-row">
-          <label>
-            First Name:
-            <input
-              type="text"
-              name="firstName"
-              value={formData.firstName}
-              onChange={handleChange}
-            />
-          </label>
-          <label>
-            Last Name:
-            <input
-              type="text"
-              name="lastName"
-              value={formData.lastName}
-              onChange={handleChange}
-            />
-          </label>
+          <input className='input-field' type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+          <input className='input-field' type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+          <input className='input-field' type="number" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} required />
+          <input className='input-field' type="text" name="autonumber" placeholder="Auto Number - KA XX XX XXXX" value={formData.autoNumber} onChange={handleChange} required />
+          <input className='input-field' type="text" name="email" placeholder="Email ID: example@example.com" value={formData.email} onChange={handleChange} required />
+          <input className='input-field' type="text" name="password" placeholder="Password" value={formData.password} onChange={handleChange} required />
+          <div className="input-field">
+            <label>Places you serve:</label>
+            <div>
+              <input 
+                type="checkbox" 
+                name="places" 
+                value="Ujire"
+                onChange={handleChange}
+              /> Ujire
+            </div>
+            <div>
+              <input 
+                type="checkbox" 
+                name="places" 
+                value="Dharmastala"
+                onChange={handleChange}
+              /> Dharmastala
+            </div>
+            <div>
+              <input 
+                type="checkbox" 
+                name="places" 
+                value="Belthangady"
+                onChange={handleChange}
+              /> Belthangady
+            </div>
+          </div>
+          <div className='register-button-container'>
+            <button className='register-button' type="submit">Register</button>
+          </div>
         </div>
-        <label>
-          Auto Number:
-          <input
-            type="text"
-            name="autoNumber"
-            value={formData.autoNumber}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Email:
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Password:
-          <input
-            type="password"
-            name="password"
-            value={formData.password}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <label>
-          Phone Number:
-          <input
-            type="tel"
-            name="phoneNumber"
-            value={formData.phoneNumber}
-            onChange={handleChange}
-          />
-        </label>
-        <br />
-        <button type="submit">Register</button>
+        
       </form>
     </div>
   );
