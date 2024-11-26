@@ -1,6 +1,6 @@
 .body {
     background-color: #f8f3c6;
-    height: auto;
+    height: 200vh;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -32,17 +32,6 @@
     align-items: center;
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
-
-.title img {
-    width: 250px;
-    height: auto;
-}
-
 .find-now-button {
     background-color: #000;
     color: #fff;
@@ -55,12 +44,31 @@
     color: #000;
 }
 
-.about-us {
-    padding-top: 50px;
-    font-size: 20px;
-    color: #000;
-    padding-left: 10%;
-    padding-right: 10%; 
-    padding-bottom: 100px;
+
+.illustration-image {
+    width: 60%;
+    padding-right: 10%;
+    height: auto;
+    display: flex;
+    justify-content: end;
 }
 
+.illustration-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: rgb(255, 225, 133)
+}

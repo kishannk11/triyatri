@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffe100; /* Set background to transparent */
+    background-color: #fece26; /* Set background to transparent */
     padding: 10px 20px;
     position: sticky; /* Make header sticky */
     top: 0; /* Stick to the top of the viewport */
@@ -19,4 +19,16 @@
     border: none;
     cursor: pointer;
     color: #ffffff;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container .register-link {
+    text-decoration: none; 
+    color: inherit;
+    margin-right: 10px;
 }
