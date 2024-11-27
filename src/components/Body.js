@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import './Body.css'
 import poster from '../assets/images/Auto.png'
-import calling from '../assets/images/svg/calling.svg'
+// import calling from '../assets/images/svg/calling.svg'
 import phoneCall from '../assets/images/phone-call.png'
 
 
@@ -29,7 +29,7 @@ function Body() {
         <div className="section-container">
 
             <div className='illustration-content'>
-              <h2>Call your Autowala</h2>
+              <h2>Whenever, Wherever</h2>
               <p>Contact your Autowala with just a click</p>
               <button className='find-now-button' onClick={navigateToAutoList}>Find Now →</button>
             </div>

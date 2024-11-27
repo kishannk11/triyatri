@@ -44,7 +44,6 @@
     color: #000;
 }
 
-
 .illustration-image {
     width: 60%;
     padding-right: 10%;
@@ -70,5 +69,33 @@
     margin-bottom: 50px;
     padding-top: 150px;
     padding-bottom: 150px;
-    background-color: rgb(255, 225, 133)
+    background-color: rgb(255, 225, 133);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .poster-container {
+        flex-direction: column;
+    }
+
+    .illustration-image {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .illustration-content, .poster-content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .section-container {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
